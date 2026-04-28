@@ -1,14 +1,13 @@
-type BankClient2 = {
+type BankClient = {
     readonly id: number;
     firstName: string;
 };
 
 
-const clientBank: BankClient2 = {
+const clientBank: BankClient = {
     id: 10,
     firstName: 'John',
 }
 
-clientBank.id = 12
 console.log(clientBank);
 

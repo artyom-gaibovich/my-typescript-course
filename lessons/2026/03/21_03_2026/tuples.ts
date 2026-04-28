@@ -25,3 +25,5 @@ point.push(30);     // Ошибка
 Кортеж с rest-элементом — когда первые позиции фиксированы, а остальные — произвольны:
  */
 const progress : [number, string, ...boolean[], number] = [1, "TypeScript", true, false, true, false, 123]
+
+const skillReadonly:  [number, string] = [1, "TypeScript"]

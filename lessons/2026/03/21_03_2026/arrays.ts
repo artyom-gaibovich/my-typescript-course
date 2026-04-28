@@ -8,3 +8,21 @@ for (const ticket of tickets) {
 
 const filtedTickets = tickets.filter(t => !t.startsWith('ticket'));
 const lengths = tickets.map(t => t.length);
+
+
+type UserObjectType = {username: string}[]
+
+const objectArray: UserObjectType = [
+    {
+        username: '1',
+    },
+    {
+        username: '2',
+    },
+    {
+        username: '3',
+    }
+];
+
+const result = objectArray.filter(u => u.username)
+
