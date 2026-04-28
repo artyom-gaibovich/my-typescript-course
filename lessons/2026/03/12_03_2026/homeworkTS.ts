@@ -1,12 +1,12 @@
 
 
 // 1. Сортировка клиентов по балансу (по убыванию)
-function sortByBalance(clients: number[]): number[] {
+function sortByBalance(clients: {balance: number}[]): {balance: number}[] {
     return [...clients].sort((a, b) => b.balance - a.balance);
 }
 
 // 2. Фильтрация заявок по сумме
-function filterByAmount(loans: number[], minAmount: number): number[] {
+function filterByAmount(loans: {amount:number}[], minAmount: number): {amount:number}[] {
     return loans.filter(loan => loan.amount >= minAmount);
 }
 
