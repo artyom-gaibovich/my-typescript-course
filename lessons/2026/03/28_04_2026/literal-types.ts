@@ -22,4 +22,4 @@ function sort(items: string[], direction: SortDirection): string[] {
 
 sort(["banana", "apple"], 1);  // ОК — по возрастанию
 sort(["banana", "apple"], -1); // ОК — по убыванию
-sort(["banana", "apple"], 0);  // ❌ Ошибка
+//sort(["banana", "apple"], 0);  // ❌ Ошибка
